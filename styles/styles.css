@@ -54,8 +54,18 @@
     position: relative;
     left: 400px;
 }
+.banner-content .believe{
+    position: relative;
+    justify-content: center;
+    right: 320px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: #fff;
+    padding-left: 700px;
+    border-style: inherit;
+}
 .banner-texts h1{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .banner-texts p{
     padding-bottom: 30px;
