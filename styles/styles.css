@@ -165,10 +165,75 @@
     padding-bottom: 15px;
 
 }
-.positive-banner-container .positive-content button{
+
+.positive-banner-container .positive-content button {
     background-color: red;
 }
-.positive-banner-container .positive-content button:hover{
+
+.positive-banner-container .positive-content button:hover {
     background-color: rgb(13, 230, 13);
     color: rgb(15, 15, 16);
+}
+
+
+.footer-banner {
+    background-color: #151414;
+    height: 577px;
+    border-radius: 5px;
+    color: white;
+    padding-top: 130px;
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-banner .footer-content .content-right {
+    width: 485px;
+    text-align: left;
+}
+
+.footer-banner .footer-content .content-right h1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.footer-banner .footer-content .content-right p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 20px;
+
+}
+.footer-banner .footer-content .content-right .paragraph{
+    padding-bottom: 30px;
+}
+.footer-banner .footer-content .content-right img{
+    padding: 0 10px;
+}
+.footer-banner .footer-content .content-left h1{
+    padding-bottom: 24px;
+
+}
+
+.footer-content form input{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    outline: 1px solid white;
+    background-color: #151414;
+    color: white;
+
+}
+.footer-content button{
+    margin: 20px 0;
 }
