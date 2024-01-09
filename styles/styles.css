@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,21 +8,22 @@
 }
 
 /* common shared items */
+
 .heading-primary {
-    color:  #151414;
-    text-align: right;
-    font-family: Work Sans;
+    color: #151414;
     font-size: 65px;
     font-weight: 700;
 }
-.paragraph-primary{
-    color:  #444343;
-    text-align: right;
+
+.paragraph-primary {
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #2185e9;
     color: #FFF;
@@ -33,7 +35,8 @@
     transition: background-color 0.5s ease;
 
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: yellow;
     color: darkgreen;
     cursor: pointer;
@@ -55,44 +58,82 @@
     position: relative;
     left: 400px;
 }
-.banner-content .believe{
+
+
+.banner-content .believe {
     border-radius: 5px;
     background-color: darkgreen;
     color: #fff;
     padding-right: 350px;
 }
-.banner-texts h1{
+
+.banner-texts h1 {
     padding-bottom: 10px;
 }
-.banner-texts p{
+
+.banner-texts p {
     padding-bottom: 30px;
 }
 
 /* failures banner styles */
-.failures-banner{
+.failures-banner {
     display: flex;
     width: 70%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     margin-bottom: 140px;
-    
+
 }
-.failures-img{
+
+.failures-img {
     width: 500px;
     padding-right: 200px;
-    
+
 }
-.failures-text *{
+
+.failures-text * {
     width: 500px;
     text-align: left;
 }
-.failures-text h1{
+
+.failures-text h1 {
     margin-bottom: 26px;
 }
-.failures-text p{
+
+.failures-text p {
     margin-bottom: 20px;
 }
-.failures-text ul{
+
+.failures-text ul {
     list-style: none;
+}
+
+/* my plans style */
+.my-plans-container{
+    background-color: rgba(203, 248, 203, 0.508);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.my-plans {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 140px;
+}
+
+.my-plans-container .hedaing-scondary{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 70px;
+}
+.my-plans img{
+    padding-bottom: 20px;
 }
