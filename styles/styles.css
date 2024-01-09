@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
+    margin-bottom: 140px;
 }
 
 .banner-texts {
@@ -55,18 +56,43 @@
     left: 400px;
 }
 .banner-content .believe{
-    position: relative;
-    justify-content: center;
-    right: 320px;
     border-radius: 5px;
     background-color: darkgreen;
     color: #fff;
-    padding-left: 700px;
-    border-style: inherit;
+    padding-right: 350px;
 }
 .banner-texts h1{
     padding-bottom: 10px;
 }
 .banner-texts p{
     padding-bottom: 30px;
+}
+
+/* failures banner styles */
+.failures-banner{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+    
+}
+.failures-img{
+    width: 500px;
+    padding-right: 200px;
+    
+}
+.failures-text *{
+    width: 500px;
+    text-align: left;
+}
+.failures-text h1{
+    margin-bottom: 26px;
+}
+.failures-text p{
+    margin-bottom: 20px;
+}
+.failures-text ul{
+    list-style: none;
 }
